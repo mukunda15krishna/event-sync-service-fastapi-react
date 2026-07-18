@@ -2,110 +2,162 @@
 
 ## Overview
 
-Artificial Intelligence (AI) tools were used during the development of this assignment as a productivity aid. All implementation decisions, testing, debugging, and validation were performed manually before submission.
+Artificial Intelligence (AI) was used as a collaborative development assistant throughout this project. It served as a productivity tool by providing guidance, code suggestions, debugging assistance, and documentation support.
+
+The project was developed through an iterative engineering process where AI-generated suggestions were reviewed, modified, integrated, and validated before being incorporated into the final solution. Final implementation, testing, debugging, integration, and engineering decisions were made by the developer.
 
 ---
 
-# How AI Was Used
+## AI Collaboration During Development
 
-## 1. Project Planning
+### 1. Project Planning & Architecture
 
-AI was used to brainstorm the overall architecture of the application, including:
+AI assisted in brainstorming the overall project structure and discussing possible implementation approaches, including:
 
-- Backend structure
-- Frontend structure
+- Backend architecture
+- Frontend architecture
 - Folder organization
-- API design
+- REST API design
+- Data reconciliation strategies
+
+The final architecture and development approach were selected and implemented by the developer based on the assignment requirements.
 
 ---
 
-## 2. Backend Development
+### 2. Backend Development
 
-AI assisted with:
+Development of the FastAPI backend was a collaborative effort.
 
-- FastAPI project structure
-- REST endpoint design
+AI assisted by explaining concepts, suggesting implementation approaches, and providing examples for:
+
+- FastAPI application structure
+- REST API endpoints
 - CORS configuration
-- Reconciliation logic ideas
-- Conflict detection approach
+- Data ingestion
+- Event reconciliation logic
+- Conflict detection
 
-The matching strategy and reconciliation logic were reviewed and adjusted during implementation.
+The developer implemented, modified, integrated, and tested the backend to ensure it satisfied the functional requirements.
 
 ---
 
-## 3. Frontend Development
+### 3. Frontend Development
 
-AI assisted with:
+AI provided guidance during development of the React frontend, including:
 
-- React component structure
+- Component organization
 - Dashboard layout
-- Search and filtering implementation
+- API integration
+- Search and filtering
 - Table rendering
-- Source and conflict visualization
+- Conflict visualization
+- Source tracking
 
-The UI was tested manually throughout development.
+The developer customized the interface, integrated it with the backend APIs, refined the user experience, and verified the functionality through manual testing.
 
 ---
 
-## 4. Debugging
+### 4. Debugging & Problem Solving
 
-AI was used as a debugging assistant for issues such as:
+AI was primarily used as a debugging assistant throughout development.
 
-- React rendering problems
+It helped analyze and troubleshoot issues involving:
+
 - FastAPI routing
+- React rendering
+- API integration
+- JSON parsing
+- CORS configuration
 - Node.js installation
 - npm configuration
 - PowerShell execution policy
-- Data reconciliation issues
+- Data reconciliation behavior
 
-Each issue was reproduced, verified, and tested after applying changes.
+The developer reproduced each issue, evaluated possible solutions, applied the required code changes, and verified the fixes through testing before continuing development.
 
 ---
 
-## 5. Documentation
+### 5. Code Review & Improvements
 
-AI assisted in drafting:
+AI was used to review portions of the implementation and suggest improvements related to:
+
+- Code readability
+- Project organization
+- Maintainability
+- Best practices
+- Error handling
+- Documentation
+
+The developer evaluated each suggestion and decided whether to adopt, modify, or reject it based on the project requirements and testing results.
+
+---
+
+### 6. Documentation
+
+AI assisted in preparing project documentation, including:
 
 - README.md
-- Project setup instructions
-- Architecture explanation
-- Assumptions
-- Future improvements
+- Setup instructions
+- Project explanation
+- Architecture overview
+- AI collaboration documentation
 
-All documentation was reviewed and edited before submission.
+All documentation was reviewed, edited, and finalized by the developer before submission.
 
 ---
 
-# Developer Decisions
+# Developer Responsibilities
 
-The following implementation decisions were made during development:
+The developer was responsible for the following throughout the project:
 
-- Use FastAPI for a lightweight REST API.
-- Use React with Vite for a simple frontend.
-- Match meetings primarily using meeting subject and meeting date.
-- Highlight conflicting meeting locations.
-- Display the origin of each record (CRM, Calendar, or Both).
-- Preserve unmatched records from both systems.
+- Understanding the assignment requirements
+- Implementing backend functionality
+- Developing frontend functionality
+- Integrating backend and frontend components
+- Writing and modifying application code
+- Running and testing the application
+- Debugging implementation issues
+- Validating API responses
+- Refining reconciliation logic
+- Improving the user interface
+- Verifying the final application behavior
+- Preparing the Git repository and submission
+
+---
+
+# Key Engineering Decisions
+
+The following implementation decisions were made by the developer during the project:
+
+- Use FastAPI to implement a lightweight REST API.
+- Use React with Vite for the frontend application.
+- Match meetings primarily using meeting title and meeting date.
+- Preserve unmatched meetings from both CRM and Calendar sources.
+- Highlight conflicting meeting locations for easier identification.
+- Display the origin of each reconciled record (CRM, Calendar, or Both).
+- Keep the reconciliation logic simple, maintainable, and easy to understand instead of introducing unnecessary complexity.
 
 ---
 
 # Future Improvements
 
-Given additional time, the following enhancements could be implemented:
+Given additional development time, the following enhancements could be implemented:
 
-- Fuzzy string matching for meeting titles
-- Better duplicate detection
-- Automatic normalization of malformed dates
+- Fuzzy matching for meeting titles
 - Confidence scoring for reconciliation
-- Database persistence
-- Unit and integration testing
+- Improved duplicate detection
+- Automatic normalization of malformed dates
+- Persistent database storage
+- Unit testing
+- Integration testing
+- Enhanced filtering and sorting capabilities
 
 ---
 
 # Transparency Statement
 
-AI was used as a development assistant to accelerate implementation and documentation.
+Artificial Intelligence was used as a collaborative engineering tool throughout the development process. It assisted with planning, implementation guidance, debugging, code review, and documentation.
 
-All code was reviewed, integrated, tested, and modified where necessary before submission.
+The developer remained responsible for understanding the solution, writing and modifying code, integrating components, validating functionality, testing the application, making engineering decisions, and preparing the final submission.
 
-Final design decisions and verification were performed by the developer.
+The submitted solution reflects a collaborative workflow where AI accelerated development while the developer maintained ownership of the implementation and overall quality of the project.
