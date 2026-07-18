@@ -160,7 +160,7 @@ Conflict rows are highlighted in the UI.
 
 # Time Spent
 
-Approximately 8–10 hours.
+Approximately 2.5–3 hours.
 
 ---
 
